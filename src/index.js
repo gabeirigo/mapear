@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Footer from './Footer';
+import Header from './Header';
+import Banner from './Banner'
+import './index.scss';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import SubscribeForm from './SubscribeForm';
+import Info from './Info';
+import BecomeAnAnalyst from './BecomeAnAnalyst';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header></Header>
+    <Banner></Banner>
+    <SubscribeForm></SubscribeForm>
+    <Info></Info>
+    <BecomeAnAnalyst></BecomeAnAnalyst>
+    <Footer></Footer>
   </React.StrictMode>,
   document.getElementById('root')
 );

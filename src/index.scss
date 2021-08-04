@@ -1,0 +1,26 @@
+@import "./variables.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.noshow {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, span {
+  color: #3F3D56;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 2.8rem;
+  color: $text-color-title;
+}

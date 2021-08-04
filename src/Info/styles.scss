@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.info {
+  padding: $large-content-padding;
+  &__row {
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+  }
+
+  &__description-highlight {
+    font-weight: 600;
+  }
+
+  &__image {
+    height: 100%;
+  }
+}

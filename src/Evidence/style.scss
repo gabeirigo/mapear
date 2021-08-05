@@ -7,10 +7,13 @@
     &__content-title {
         display: flex;
         justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
     }
 
     &__title {
         margin-bottom: 2rem;
+       
         text-align: center;
         width: 500px;
         max-width: 90%;
@@ -26,30 +29,139 @@
         text-align: center;
     }
 
-    &__slide-results {
+    &__content-results {
         display: flex;
     }
 
-    &__results {
-        display:flex;
-        
-    }
-
-    &__slide-results img {
+    &__big-girl-image {
+    
         height: 28rem;
     }
 
-    &__results-card {
-        width: 35rem;
-        height: 16rem;
-        border-radius: 8px;
-        background-color: #ffffff;
+    &__container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 4rem;
+        width: 56rem;
+        height: 16.8rem;
     }
 
-    &__results-videos {
-        margin-bottom: 1rem;
+    &__students-results-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 35.3rem;
+        padding: 1.3rem;
+        height: 17.6rem;
         background-color: #ffffff;
-        width: 16rem;
-        height: 8rem;
+        border-radius: 5px;
     }
+
+    &__arrow-previous {
+        position: absolute;
+        height: 1.3rem;
+        left: 1.5rem;
+    }
+
+    &__arrow-next {
+        position: absolute;
+        right: 1.5rem;
+        height: 1.3rem;
+        transform: rotate(180deg);
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 4.8rem;
+        height: 4.8rem;
+        top: -2rem;
+        left: 15rem;
+        background: #3f3d56;
+        clip-path: circle(40%);
+    }
+
+    &__user img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    &__user-coment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__user-coment h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    &__user-coment p {
+        margin: 0 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    &__students-results-videos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__video {
+        background-color: #ffffff;
+        width: 16.8rem;
+        height: 8rem;
+        border-radius: 5px;
+    }
+
+    &__achievements {
+        margin:4rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    &__achievements-data {       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__achievements-number {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 3rem;
+        color: $secondary;
+    }
+
+    &__achievements-info {
+        margin: 0;
+    }
+
+    &__button-contact-us {
+        margin: 4rem 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      &__button-contact-us a {
+        color: white;
+        width: 25rem;
+        height: 2.5rem;
+        background-color: #F77737;
+        
+        border-radius: .5rem;
+      }
+
+
 }

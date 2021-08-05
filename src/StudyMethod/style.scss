@@ -6,9 +6,12 @@
     &__content-title {
         display: flex;
         justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
     }
 
     &__title {
+        
         margin-bottom: 2rem;
         text-align: center;
         width: 500px;

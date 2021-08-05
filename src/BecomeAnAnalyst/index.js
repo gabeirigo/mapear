@@ -37,7 +37,7 @@ function BecomeAnAnalyst() {
         <p>Em resumo, a Formação em Análise Comportamental é para quem deseja adquirir conhecimento em desenvolvimento humano ou iniciar uma nova atuação profissional e aumentar a sua renda.</p>
       </div>
       <div className="become-an-analyst__button-contact-us">
-      <a href="#" className="btn">Fale com um de nossos consultores</a>
+        <a href="#" className="btn">Fale com um de nossos consultores</a>
       </div>
 
     </div>

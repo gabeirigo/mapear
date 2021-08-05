@@ -9,6 +9,8 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import SubscribeForm from './SubscribeForm';
 import Info from './Info';
 import BecomeAnAnalyst from './BecomeAnAnalyst';
+import StudyMethod from './StudyMethod';
+import Evidence from './Evidence';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +19,8 @@ ReactDOM.render(
     <SubscribeForm></SubscribeForm>
     <Info></Info>
     <BecomeAnAnalyst></BecomeAnAnalyst>
+     <StudyMethod></StudyMethod>
+     <Evidence></Evidence>
     <Footer></Footer>
   </React.StrictMode>,
   document.getElementById('root')

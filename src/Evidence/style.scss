@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.evidence {
+    padding: $large-content-padding;
+    background-color: $bg-secondary;
+
+    &__content-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 500px;
+        max-width: 90%;
+    }
+
+    &__info-paragraph {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__info-paragraph-paragraph {
+        text-align: center;
+    }
+
+    &__slide-results {
+        display: flex;
+    }
+
+    &__results {
+        display:flex;
+        
+    }
+
+    &__slide-results img {
+        height: 28rem;
+    }
+
+    &__results-card {
+        width: 35rem;
+        height: 16rem;
+        border-radius: 8px;
+        background-color: #ffffff;
+    }
+
+    &__results-videos {
+        margin-bottom: 1rem;
+        background-color: #ffffff;
+        width: 16rem;
+        height: 8rem;
+    }
+}

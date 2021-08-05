@@ -1,0 +1,68 @@
+@import "../variables.scss";
+
+.study-method {
+    padding: $large-content-padding;
+
+    &__content-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 500px;
+        max-width: 90%;
+    }
+
+    &__info-paragraph {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__info-paragraph-paragraph {
+        text-align: center;
+    }
+
+    &__content-cards {
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        
+
+
+        
+
+    }
+
+
+    &__card {
+        width: 10rem;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        
+        border-radius: 0.5rem;
+        box-shadow: 1px 1px 5px rgba(71, 71, 71, 0.2);
+
+    }
+
+    &__card img{
+       width: 2.75rem;
+       height: 2.75rem; 
+    }
+
+
+    &__card-p {
+        margin: 0.2rem 0 0 0 ;
+        width: 9.25rem;
+        height: 2.125;
+        text-align: center;
+        font-size: .8rem;
+    }
+}

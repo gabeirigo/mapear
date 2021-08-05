@@ -10,12 +10,14 @@
   }
 
   &__title {
+    margin-bottom: 2rem;
     text-align: center;
     width: 500px;
     max-width: 90%;
   }
   
   &__content-personas {
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,8 +25,51 @@
     column-gap: 5rem;
   }
 
-  &__persona-title {
-    font-size: 1.3rem;
-    font-weight: 600;
+  &__persona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 0;
   }
+
+  &__persona img {
+    height: 10rem;
+  }
+
+  &__persona-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  &__info {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    // width: 50rem;
+  }
+
+
+   &__info p {
+    text-align: center;
+    
+  } 
+ 
+  &__button-contact-us {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  &__button-contact-us a {
+    color: white;
+    width: 25rem;
+    height: 2.5rem;
+    background-color: #F77737;
+    
+    border-radius: .5rem;
+  }
+ 
 }

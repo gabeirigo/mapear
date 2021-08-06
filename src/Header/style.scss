@@ -1,8 +1,12 @@
 @import '../variables.scss';
 
 .header {
-  &__logo {
+  &__container {
+    background: white;
+  }
 
+  &__logo {
+    
   }
 
   &__nav {

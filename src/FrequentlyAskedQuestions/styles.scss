@@ -1,6 +1,6 @@
 @import '../variables.scss';
 
-.requently-asked-questions {
+.frequently-asked-questions {
     padding: $large-content-padding;
 
     &__content-title {
@@ -17,4 +17,42 @@
         width: 575px;
         max-width: 90%;
       }
+
+      &__content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      &__question {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1.5rem 0.8rem;
+          width: 50rem;
+          height: 4.4rem;
+          margin-bottom: 0.5rem;
+          border: 0.031rem solid #E4E4E4;
+          border-radius: 5px;
+      }
+
+      &__question p {
+          margin: 0;
+      }
+
+      &__button-contact-us {
+        margin: 4rem 0;
+        display: flex;
+        justify-content: center;
+      }
+      
+      &__button-contact-us a {
+        color: white;
+        width: 25rem;
+        height: 2.5rem;
+        background-color: #F77737;
+        
+        border-radius: .5rem;
+      }
+
 }

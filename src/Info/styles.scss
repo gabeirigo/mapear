@@ -2,6 +2,10 @@
 
 .info {
   padding: $large-content-padding;
+
+  &__title{
+    font-family: 'Poppins', sans-serif;
+  }
   &__row {
     display: flex;
     align-items: center;

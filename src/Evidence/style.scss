@@ -7,13 +7,11 @@
     &__content-title {
         display: flex;
         justify-content: center;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: 700;
     }
 
     &__title {
-        margin-bottom: 2rem;
-       
         text-align: center;
         width: 500px;
         max-width: 90%;
@@ -34,7 +32,6 @@
     }
 
     &__big-girl-image {
-    
         height: 28rem;
     }
 
@@ -55,7 +52,7 @@
         padding: 1.3rem;
         height: 17.6rem;
         background-color: #ffffff;
-        border-radius: 5px;
+        border-radius: $radius;
     }
 
     &__arrow-previous {
@@ -121,14 +118,14 @@
     }
 
     &__achievements {
-        margin:4rem 0;
+        margin: 4rem 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         text-align: center;
     }
 
-    &__achievements-data {       
+    &__achievements-data {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -138,7 +135,7 @@
 
     &__achievements-number {
         margin: 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-size: 3rem;
         color: $secondary;
@@ -152,16 +149,122 @@
         margin: 4rem 0;
         display: flex;
         justify-content: center;
-      }
-      
-      &__button-contact-us a {
+    }
+
+    &__button-contact-us a {
         color: white;
         width: 25rem;
         height: 2.5rem;
-        background-color: #F77737;
-        
-        border-radius: .5rem;
-      }
+        background-color: #f77737;
 
+        border-radius: 0.5rem;
+    }
+}
 
+@media (max-width: 770px) {
+    .evidence {
+        padding: $large-content-padding;
+        background-color: $bg-secondary;
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__content-title {
+        }
+
+        &__title {
+        }
+
+        &__info-paragraph {
+        }
+
+        &__info-paragraph-paragraph {
+        }
+
+        &__content-results {
+        }
+
+        &__big-girl-image {
+            display: none;
+        }
+
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 4rem;
+            width: 56rem;
+            height: 16.8rem;
+        }
+
+        &__students-results-slide {
+        }
+
+        &__arrow-previous {
+        }
+
+        &__arrow-next {
+        }
+
+        &__user {
+        }
+
+        &__user img {
+        }
+
+        &__user-coment {
+        }
+
+        &__user-coment h2 {
+        }
+
+        &__user-coment p {
+        }
+
+        &__students-results-videos {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+            grid-column-gap: 1.8rem;
+            justify-content: space-between;
+        }
+
+        &__video {
+        }
+
+        &__achievements {
+            margin-top: 12rem;
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        &__achievements-data {
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // text-align: center;
+        }
+
+        &__achievements-number {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            color: #634794;
+        }
+
+        &__achievements-info {
+        }
+
+        &__button-contact-us {
+        }
+
+        &__button-contact-us a {
+        }
+    }
 }

@@ -1,23 +1,28 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .header {
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+
   &__container {
-    background: white;
   }
 
   &__logo {
-    
   }
 
   &__nav {
-    
   }
 
   &__items {
-    
   }
 
   &__item {
     
+  }
+
+  .nav-link {
+    margin-left: 2rem;
+    font-family: "Poppins", sans-serif;
   }
 }

@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
   }
   &__row {
+    margin-bottom: 4rem;
     display: flex;
     align-items: center;
     column-gap: 10rem;
@@ -18,5 +19,32 @@
 
   &__image {
     height: 100%;
+  }
+}
+
+
+
+@media (max-width: 770px) {
+  
+  .info {
+    padding: $large-content-padding;
+  
+    &__title{
+      font-family: 'Poppins', sans-serif;
+    }
+    &__row {
+      margin-bottom: 4rem;
+      display: block;
+      align-items: center;
+      column-gap: 10rem;
+    }
+  
+    &__description-highlight {
+      font-weight: 600;
+    }
+  
+    &__image {
+      display: none;
+    }
   }
 }

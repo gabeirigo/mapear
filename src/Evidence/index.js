@@ -23,7 +23,7 @@ function Evidence() {
                     <div className="evidence__big-girl-image">
                         <img src={bigGirl} ></img>
                     </div>
-                    <div className="evidence__container">
+                    <div className="evidence__container-results">
 
                         <div className="evidence__students-results-slide">
 

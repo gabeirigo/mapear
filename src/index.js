@@ -21,10 +21,10 @@ ReactDOM.render(
     <SubscribeForm></SubscribeForm>
     <Info></Info>
     <BecomeAnAnalyst></BecomeAnAnalyst>
-     <StudyMethod></StudyMethod>
-     <Evidence></Evidence>
-     <ReliableMethodology></ReliableMethodology>
-     <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
+    <StudyMethod></StudyMethod>
+    <Evidence></Evidence>
+    <ReliableMethodology></ReliableMethodology>
+    <FrequentlyAskedQuestions></FrequentlyAskedQuestions>
     <Footer></Footer>
   </React.StrictMode>,
   document.getElementById('root')

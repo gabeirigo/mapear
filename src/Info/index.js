@@ -13,13 +13,13 @@ function Info() {
             <p className="info__description">A Formação Analista Comportamental fornece ferramentas essenciais para atuar em diversas áreas de Recursos Humanos, como <span className="info__description-highlight">Recrutamento, Seleção, Desenvolvimento, Retenção de Talentos, Aumento de Produtividade, Formação de Liderança e mais. </span>Entre em contato para saber mais.</p>
           </div>
           <div>
-            <img className="info__image" src={rhImage} alt="" />
+            <img className="info__image" src={rhImage} alt="Formação Analista Comportamental" title="Formação Analista Comportamental" />
           </div>
         </article>
 
         <article className="info__row">
           <div>
-            <img className="info__image" src={profile} alt="" />
+            <img className="info__image" src={profile} alt="Foto Soraya Modesto" title="Soraya Modesto" />
           </div>
           <div>
             <h2 className="info__title title">Conheça a ministrante</h2>

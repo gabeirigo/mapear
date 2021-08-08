@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import '../variables.scss';
 
 .study-method {
     padding: $large-content-padding;
@@ -6,7 +6,7 @@
     &__content-title {
         display: flex;
         justify-content: center;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 700;
         text-align: center;
     }
@@ -74,7 +74,7 @@
         }
 
         &__card {
-             margin-top: 1rem;
+            margin-top: 1rem;
         }
     }
 }
@@ -97,7 +97,6 @@
         }
     }
 }
-
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {

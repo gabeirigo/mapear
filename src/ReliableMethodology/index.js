@@ -24,17 +24,17 @@ function ReliableMethodology() {
             <div className="reliable-methodology__content">
                 <div className="reliable-methodology__supporting-companies">
                     <div className="reliable-methodology__companies">
-                        <img src={ufmgImage}></img>
+                        <img src={ufmgImage} alt="UFMG" title="UFMG"></img>
                     </div>
                     <div className="reliable-methodology__companies">
-                        <img src={finepImage}></img>
+                        <img src={finepImage} alt="Finep" title="Finep"></img>
                     </div>
                     <div className="reliable-methodology__companies">
-                        <img src={uspImage}></img>
+                        <img src={uspImage} alt="USP" title="USP"></img>
 
                     </div>
                     <div className="reliable-methodology__companies">
-                        <img src={fumsoftImage}></img>
+                        <img src={fumsoftImage} alt="Fumsoft" title="Fumsoft"></img>
                     </div>
                 </div>
             </div>

@@ -1,25 +1,23 @@
 @import '../variables.scss';
 
 .reliable-methodology {
-     padding: $large-content-padding;
+    padding: $large-content-padding;
 
     &__content-title {
         display: flex;
         justify-content: center;
-        
-      }
+    }
 
-      &__title {
+    &__title {
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
-        
+
         text-align: center;
         width: 575px;
         max-width: 90%;
-      }
+    }
 
-      &__info-paragraph {
-        
+    &__info-paragraph {
         display: flex;
         justify-content: center;
     }
@@ -40,12 +38,8 @@
         justify-content: space-evenly;
         align-items: center;
         margin-top: 2rem;
-        
+
         border-radius: $radius;
         box-shadow: 1px 1px 5px rgba(71, 71, 71, 0.3);
-    }
-
-    &__companies {
-        
     }
 }

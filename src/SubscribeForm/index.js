@@ -26,16 +26,16 @@ function SubscribeForm() {
 
       <div className="subscribe-form__row">
         <div className="subscribe-form__field subscribe-form__field--control ">
-         <span className="subscribe-form__lgpd-description">
-          * Todos os seus dados serão usados de acordo com as normas da Lei Geral de Proteção de Dados
-         </span>
+          <span className="subscribe-form__lgpd-description">
+            * Todos os seus dados serão usados de acordo com as normas da Lei Geral de Proteção de Dados
+          </span>
         </div>
 
         <div className="subscribe-form__field subscribe-form__field--button">
           <button type="submit" className="btn btn-primary btn-lg">Inscrever!</button>
         </div>
       </div>
-      
+
     </div>
   </section>;
 }

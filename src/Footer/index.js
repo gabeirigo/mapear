@@ -16,19 +16,19 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__content">
           <div>
-            <a className="footer__logo">mapear</a>
+            <a href="#" className="footer__logo">mapear</a>
           </div>
 
           <div className="footer__social-media">
-            <a href="#"> <img src={instagramIcon}></img></a>
-            <a href="#"><img src={linkedinIcon}></img></a>
-            <a href="#"> <img src={facebookIcon}></img></a>
+            <a href="#"> <img src={instagramIcon} alt="Instagram Ícone" title="Instagram"></img></a>
+            <a href="#"><img src={linkedinIcon} alt="Linkedin Ícone" title="Linkedin"></img></a>
+            <a href="#"> <img src={facebookIcon} alt="Facebook Ícone" title="Facebook"></img></a>
           </div>
 
           <div className="footer__contact">
             <div className="footer__address">
               <a href="#">
-                <img src={locationIcon}></img>
+                <img src={locationIcon} alt="Localização Ícone" title="Localização"></img>
               </a>
               <p>Av. Afonso Pena, 4465 – Umuarama
                 Uberlândia – MG, CEP: 38405-309</p>
@@ -36,14 +36,14 @@ function Footer() {
 
             <div className="footer__whatsapp-number">
               <a href="#">
-                <img src={whatsappIcon}></img>
+                <img src={whatsappIcon} alt="Whatsapp Ícone" title="Whatsapp"></img>
               </a>
               <p>(34) 98431-1111</p>
             </div>
 
             <div className="footer__email">
               <a href="#">
-                <img src={emailIcon}></img>
+                <img src={emailIcon} alt="Email Ícone" title="Email"></img>
               </a>
               <p>fale@mapearperfil.com.br</p>
             </div>

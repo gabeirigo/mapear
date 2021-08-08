@@ -1,10 +1,10 @@
-@import "../variables.scss";
+@import '../variables.scss';
 
 .footer {
     background-color: #2f2e41;
     height: 1;
 
-    &__container{
+    &__container {
         height: 17rem;
         padding: $large-content-padding;
     }
@@ -29,14 +29,10 @@
         height: 1.8rem;
     }
 
-    &__social-media a {
-    }
-
     &__contact {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
     }
-
 
     &__address {
         margin-bottom: 1rem;
@@ -57,7 +53,7 @@
     }
 
     &__contact p {
-        width:18rem;
+        width: 18rem;
         font-size: 1rem;
         margin: 0 0 0 0.3rem;
         color: white;

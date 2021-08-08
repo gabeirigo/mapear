@@ -17,19 +17,19 @@ function BecomeAnAnalyst() {
 
       <div className="become-an-analyst__content-personas">
         <article className="become-an-analyst__persona">
-          <img src={rhProfessionals} alt="" />
+          <img src={rhProfessionals} alt="Profissionais de RH" title="Profissionais de RH"/>
           <h2 className="become-an-analyst__persona-title">Profissionais de RH</h2>
         </article>
         <article className="become-an-analyst__persona">
-          <img src={coaches} alt="" />
+          <img src={coaches} alt="Coaches" title="Coaches" />
           <h2 className="become-an-analyst__persona-title">Coaches</h2>
         </article>
         <article className="become-an-analyst__persona">
-          <img src={rhConsultants} alt="" />
+          <img src={rhConsultants} alt="Consultores de RH" title="Consultores de RH" />
           <h2 className="become-an-analyst__persona-title">Consultores de RH</h2>
         </article>
         <article className="become-an-analyst__persona">
-          <img src={humanDevelopment} alt="" />
+          <img src={humanDevelopment} alt="Interessados no desenvolvimento humano" title="Interessados no desenvolvimento humano" />
           <h2 className="become-an-analyst__persona-title">Interessados no desenvolvimento humano</h2>
         </article>
       </div>

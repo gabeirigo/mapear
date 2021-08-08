@@ -24,42 +24,42 @@ function StudyMethod() {
 
                 <div className="study-method__content-cards">
                     <div className="study-method__card">
-                        <img src={webPlatformCard}></img>
+                        <img src={webPlatformCard} alt="Acesso a plataforma web personalizada" title="Plataforma web personalizada"></img>
                         <p className="study-method__card-p">Acesso a plataforma web personalizada</p>
                     </div>
 
                     <div className="study-method__card">
-                        <img src={analisysReportCard}></img>
+                        <img src={analisysReportCard} alt="Relatórios de análise comportamental" title=" 4 relatórios de análise comportamental"></img>
                         <p className="study-method__card-p">4 relatórios de análise comportamental</p>
                     </div>
 
                     <div className="study-method__card">
-                        <img src={certificateCard}></img>
+                        <img src={certificateCard} alt="Certificação internacional" title="Certificação internacional"></img>
                         <p className="study-method__card-p">Certificação internacional</p>
                     </div>
 
                     <div className="study-method__card">
-                        <img src={studyMaterialCard}></img>
+                        <img src={studyMaterialCard} alt="Material didático" title="Material didático"></img>
                         <p className="study-method__card-p">Material didático</p>
                     </div>
 
                     <div className="study-method__card">
-                        <img src={onlineSupportCard}></img>
+                        <img src={onlineSupportCard} alt="Suporte online" title="Suporte online"></img>
                         <p className="study-method__card-p">Suporte online</p>
                     </div>
 
 
                     <div className="study-method__card">
-                        <img src={inCompanyCard}></img>
+                        <img src={inCompanyCard} alt="Formação InCompany" title="Formação InCompany"></img>
                         <p className="study-method__card-p">Possibilidade de formação InCompany</p>
                     </div>
 
                     <div className="study-method__card">
-                        <img src={timeCard}></img>
+                        <img src={timeCard} alt="12 horas de carga horária" title="12 horas de carga horária"></img>
                         <p className="study-method__card-p">12 horas de carga horária</p>
                     </div>
                     <div className="study-method__card">
-                        <img src={onlineTrainingCard}></img>
+                        <img src={onlineTrainingCard} alt="Formação online e ao vivo" title="Formação online e ao vivo"></img>
                         <p className="study-method__card-p">Formação online e ao vivo</p>
                     </div>
                 </div>

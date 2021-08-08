@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import '../variables.scss';
 
 .frequently-asked-questions {
   padding: $large-content-padding;
@@ -9,7 +9,7 @@
   }
 
   &__title {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
@@ -54,21 +54,3 @@
     border-radius: 0.5rem;
   }
 }
-
-// @media (max-width: 770px) {
-//   .frequently-asked-questions {
-//     padding: $large-content-padding;
-
-//     &__question {
-//       display: flex;
-//       justify-content: space-between;
-//       align-items: center;
-//       padding: 1.5rem 0.8rem;
-//       width: 39rem;
-//       height: 4.4rem;
-//       margin-bottom: 0.5rem;
-//       border: 0.031rem solid #e4e4e4;
-//       border-radius: $radius;
-//     }
-//   }
-// }

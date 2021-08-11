@@ -6,7 +6,7 @@ import arrow from '../assets/img/svg/arrow.svg';
 
 function Evidence() {
     return (
-        <section className="evidence">
+        <section className="evidence" id="evidence">
             <div className="container">
                 <div className="evidence__content-title">
                     <h2 className="evidence__content-title title">
@@ -20,7 +20,7 @@ function Evidence() {
                 </div>
 
                 <div className="evidence__content-results">
-                    <div className="evidence__big-girl-image">
+                    <div className="evidence__persona-image">
                         <img src={evidencePersonaImage} alt="Depoimentos" title="Depoimentos"></img>
                     </div>
                     <div className="evidence__container-results">

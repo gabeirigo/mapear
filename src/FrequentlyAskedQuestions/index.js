@@ -4,8 +4,9 @@ import arrowQuestions from '../assets/img/svg/arrow-questions.svg';
 
 function FrequentlyAskedQuestions() {
     return (
-        <section className="frequently-asked-questions">
-            <div className="frequently-asked-questions__content-title">
+        <section className="frequently-asked-questions" id="frequently-asked-questions">
+           <div className="container"> 
+           <div className="frequently-asked-questions__content-title">
                 <h2 className="frequently-asked-questions__title title">
                     Dúvidas Frequentes
                 </h2>
@@ -35,6 +36,7 @@ function FrequentlyAskedQuestions() {
             <div className="frequently-asked-questions__button-contact-us">
                     <a href="#" className="btn">Inscrever</a>
                 </div>
+           </div>
         </section>
     )
 }

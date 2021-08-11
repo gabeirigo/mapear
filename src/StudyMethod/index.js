@@ -11,7 +11,7 @@ import onlineTrainingCard from '../assets/img/svg/online-training-card.svg';
 
 function StudyMethod() {
     return (
-        <section className="study-method">
+        <section className="study-method" id="study-method">
             <div className="container">
                 <div className="study-method__content-title">
                     <h2 className="study-method__content-title title">

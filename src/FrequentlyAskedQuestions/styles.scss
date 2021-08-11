@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .frequently-asked-questions {
   padding: $large-content-padding;
@@ -6,13 +6,14 @@
   &__content-title {
     display: flex;
     justify-content: center;
+    text-align: center;
   }
 
   &__title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     margin-bottom: 2rem;
-    text-align: center;
+
     width: 575px;
     max-width: 90%;
   }
@@ -28,7 +29,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0.8rem;
-    width: 50rem;
+    width: 60%;
     height: 4.4rem;
     margin-bottom: 0.5rem;
     border: 0.031rem solid #e4e4e4;
@@ -52,5 +53,23 @@
     background-color: #f77737;
 
     border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .frequently-asked-questions {
+    padding: $small-content-padding;
+
+    &__question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 0.8rem;
+      width: 100%;
+      height: 4.4rem;
+      margin-bottom: 0.5rem;
+      border: 0.031rem solid #e4e4e4;
+      border-radius: $radius;
+    }
   }
 }

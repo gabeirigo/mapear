@@ -8,7 +8,7 @@ import fumsoftImage from '../assets/img/svg/fumsoft.svg';
 function ReliableMethodology() {
     return (
         <section className="reliable-methodology">
-            <div className="container">
+            <div className="reliable-methodology__container">
 
                 <div className="reliable-methodology__content-title">
                     <h2 className="reliable-methodology__title title">
@@ -17,9 +17,8 @@ function ReliableMethodology() {
                 </div>
 
                 <div className="reliable-methodology__info-paragraph">
-                    <p className="evidence-paragraph-paragraph">O Profiler é um Sistema com 97,97% de assertividade comprovada para a Identificação de Perfil Profissional/Comportamental.</p>
+                    <p className="reliable-methodology__paragraph-paragraph">O Profiler é um Sistema com 97,97% de assertividade comprovada para a Identificação de Perfil Profissional/Comportamental.</p>
                 </div>
-            </div>
 
             <div className="reliable-methodology__content">
                 <div className="reliable-methodology__supporting-companies">
@@ -37,6 +36,7 @@ function ReliableMethodology() {
                         <img src={fumsoftImage} alt="Fumsoft" title="Fumsoft"></img>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     )

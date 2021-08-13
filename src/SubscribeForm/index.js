@@ -5,7 +5,7 @@ import emailjs, { init } from 'emailjs-com';
 
 function SubscribeForm() {
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const { register, handleSubmit } = useForm();
 
   useEffect(() => {
     init(process.env.REACT_APP_EMAILJS_USER_ID);

@@ -1,5 +1,5 @@
 $primary: #b95300;
-$secondary: #833AB4;
+$secondary: #634794;
 $white: #FFF;
 
 $text-color-title: #3F3D56;
@@ -10,7 +10,21 @@ $bg-secondary: #F2F2F6;
 
 $radius: 5px;
 
+$small-box-padding: 1.5rem;
 $small-content-padding: 2.5rem;
 $large-content-padding: 3.5rem;
 
+$md-gap: 2rem;
+
 $box-shadow-4: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.1), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.1);
+
+// Large devices (desktops, less than 1200px)
+$screenDesktop: (max-width: 1199.98px);
+
+// Medium devices (tablets, less than 992px)
+$screenTablet: (max-width: 991.98px);
+
+// Small devices (landscape phones, less than 768px)
+$sreenMobile: (max-width: 767.98px);
+
+$sreenMobile-small: (max-width: 575.98px);

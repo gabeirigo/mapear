@@ -1,0 +1,73 @@
+@import "../variables.scss";
+
+.footer {
+  background-color: #2f2e41;
+  padding: $large-content-padding;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f77737;
+    text-decoration: none;
+  }
+
+  &__social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 12rem;
+    height: 1.8rem;
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__address {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__whatsapp-number {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__email {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__contact p {
+    width: 18rem;
+    font-size: 1rem;
+    margin: 0 0 0 0.3rem;
+    color: white;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer {
+
+    &__container {
+
+        padding: $small-content-padding;
+    }
+
+    &__content {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        grid-row-gap: 1rem;
+
+    }
+  }
+}

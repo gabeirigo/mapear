@@ -1,8 +1,13 @@
 @import '../variables.scss';
 
 .info {
-  padding: $large-content-padding;
+    padding: $large-content-padding;
+
+  &__title {
+    font-family: 'Poppins', sans-serif;
+  }
   &__row {
+    margin-bottom: 4rem;
     display: flex;
     align-items: center;
     column-gap: 10rem;
@@ -15,4 +20,32 @@
   &__image {
     height: 100%;
   }
+}
+
+@media (max-width: 580px) {
+  .info {
+    padding: $small-content-padding;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__images-rhImage {
+      display: none;
+    }
+
+    &__image {
+      height: 10rem;
+      margin-bottom: 1rem;
+    }
+
+    &__row {
+      margin-bottom: 1rem;
+      flex-direction: column;
+    }
+  }
+
+
 }

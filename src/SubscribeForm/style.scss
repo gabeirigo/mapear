@@ -1,4 +1,4 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .subscribe-form {
   background-color: $bg-secondary;
@@ -20,18 +20,25 @@
   &__field {
     width: 50%;
     align-items: center;
-    
+
     &--button {
       display: flex;
       justify-content: flex-end;
-      
     }
 
     &--control {
       margin-top: 1rem;
     }
-
   }
+
+  .btn {
+    color: white;
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #f77737;
+    border: none;
+    border-radius: 0.5rem;
+    }
 
   &__input {
     padding: 12px 12px;
@@ -41,6 +48,45 @@
   &__lgpd-description {
     font-size: 0.875rem;
     color: $text-color-secondary;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscribe-form {
+    &__row {
+      display: block;
+    }
+
+    &__field {
+      width: 100%;
+      align-items: center;
+
+      &--control {
+        margin-bottom: 1rem;
+      }
+
+      &--button {
+        justify-content: center;
+      }
+    }
+
+    
+     &__container {
+      gap: 0;
+    }
+
+    &__input {
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+    color: white;
+    width: 25rem;
+    height: 2.5rem;
+    background-color: #f77737;
+    border: none;
+    border-radius: 0.5rem;
+    }
   }
 }
 

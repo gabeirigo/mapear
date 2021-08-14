@@ -38,16 +38,17 @@
     justify-content: center;
   }
 
-  &__persona-image img {
-    height: 28rem;
+  &__persona-image {
+    position: relative;
+    height: 100%;
   }
 
   &__container-results {
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin-top: 4rem;
-    width: 56rem;
-    height: 16.8rem;
+    width: 100%;
+    height: 100%;
   }
 
   &__students-results-slide {
@@ -55,9 +56,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 35.3rem;
+    width: 95%;
     padding: 1.3rem;
-    height: 17.6rem;
+    height: 100%;
     background-color: #ffffff;
     border-radius: $radius;
   }
@@ -176,13 +177,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    &__container {
-      text-align: center;
-    }
+    text-align: center;
 
     &__persona-image {
       display: none;
+    }
+
+    &__content-results {
+      margin-top: 2rem;
     }
 
     &__container-results {
@@ -193,15 +195,16 @@
 
     &__students-results-slide {
       width: 100%;
-      padding: 2.3rem;
+      padding: 1.5rem;
     }
 
     &__user-coment h2 {
-      font-size: 3vw;
+      font-size: 1rem;
     }
 
     &__user-coment p {
-      font-size: 2.7vw;
+      margin: 0 0.8rem;
+      font-size: 0.8rem;
     }
 
     &__students-results-videos {
@@ -222,18 +225,84 @@
     }
 
     &__achievements {
-      margin-top: 12rem;
-      font-size: 2.5vw;
+      margin-top: 0;
+      font-size: 1rems;
       align-items: baseline;
       grid-column-gap: 1.5rem;
     }
 
     &__achievements-number {
-      font-size: 7vw;
+      font-size: 2rem;
+    }
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .evidence {
+    padding: $large-content-padding;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__container-results {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    &__content-results {
+      margin-top: 2rem;
+    }
+
+    &__persona-image {
+      display: none;
+    }
+
+    &__students-results-slide {
+      width: 90%;
+      height: 100%;
+      padding: 1.5rem;
+    }
+
+    &__students-results-videos {
+      margin-top: 1rem;
+      flex-direction: row;
+      justify-content: space-between;
+      grid-column-gap: 1rem;
+      width: 90%;
+    }
+
+    &__video {
+      width: 90%;
+    }
+
+    &__user {
+      width: 4rem;
+      height: 4rem;
+      top: -2.5rem;
+      left: auto;
+    }
+
+    &__achievements {
+      margin-top: 0;
+      font-size: 1rem;
+      align-items: baseline;
+      grid-column-gap: 1.5rem;
     }
 
     &__achievements-data {
-      // justify-content: start;
+      margin-bottom: 2rem;
+    }
+
+    &__achievements-number {
+      font-size: 2.5rem;
     }
   }
 }
@@ -244,13 +313,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    &__container {
-      text-align: center;
-    }
+    text-align: center;
 
     &__persona-image {
       display: none;
+    }
+
+    &__content-results {
+      margin-top: 2rem;
     }
 
     &__container-results {
@@ -261,16 +331,16 @@
 
     &__students-results-slide {
       width: 100%;
-      height: 50vh;
-      padding: 2.3rem;
+      height: 100%;
+      padding: 1.5rem;
     }
 
     &__user-coment h2 {
-      font-size: 3vw;
+      font-size: 1rem;
     }
 
     &__user-coment p {
-      font-size: 2.5vw;
+      font-size: 0.8rem;
     }
 
     &__students-results-videos {
@@ -291,24 +361,47 @@
     }
 
     &__achievements {
-      margin-top: 14rem;
-      font-size: 2.5rem;
+      margin-top: 0;
+      font-size: 1rem;
       align-items: baseline;
       grid-column-gap: 1.5rem;
     }
 
     &__achievements-number {
-      font-size: 7vw;
+      font-size: 2rem;
     }
 
     &__achievements-data {
-      // justify-content: start;
+      margin-bottom: 2rem;
+    }
+
+  }
+}
+
+
+@media (max-width: 576px) {
+  .evidence {
+    &__achievements {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-column-gap: 1.5rem;
+    }
+
+    &__achievements-data {
+      margin-bottom: 2rem;
+    }
+
+    &__user-coment h2 {
+      font-size: 1.1rem;
+    }
+
+    &__user-coment p {
+      font-size: 1rem;
     }
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-}
 
-@media (min-width: 992px) and (max-width: 1200px) {
-}
+
+

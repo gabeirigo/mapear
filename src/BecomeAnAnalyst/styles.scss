@@ -80,14 +80,24 @@
 @media (max-width: 580px) {
   .become-an-analyst {
     padding: $small-content-padding;
+    text-align: center;
 
 
     &__content-personas {
+      margin: 2rem 0;
       flex-direction: column;
     }
 
     &__persona {
-      margin: 1rem 0;
+      margin-top:1.5rem;
+    }
+
+    &__persona img {
+      height: 8rem;
+    }
+
+    &__title {
+      margin: 0;
     }
   }
 }

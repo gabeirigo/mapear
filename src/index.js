@@ -13,6 +13,7 @@ import StudyMethod from './StudyMethod';
 import Evidence from './Evidence';
 import ReliableMethodology from './ReliableMethodology';
 import FrequentlyAskedQuestions from './FrequentlyAskedQuestions';
+import { init } from 'emailjs-com';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,3 +35,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+init(process.env.REACT_APP_EMAILJS_USER_ID);

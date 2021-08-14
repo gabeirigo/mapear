@@ -20,9 +20,11 @@ function Evidence() {
                 </div>
 
                 <div className="evidence__content-results">
-                    <div className="evidence__persona-image">
-                        <img src={evidencePersonaImage} alt="Depoimentos" title="Depoimentos"></img>
-                    </div>
+
+                    <img className="evidence__persona-image" src={evidencePersonaImage} alt="Depoimentos" title="Depoimentos"></img>
+
+
+
                     <div className="evidence__container-results">
 
                         <div className="evidence__students-results-slide">

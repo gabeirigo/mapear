@@ -32,7 +32,8 @@ function SubscribeForm() {
         </div>
 
         <div className="subscribe-form__field subscribe-form__field--button">
-          <button type="submit" className="btn btn-primary btn-lg">Inscrever!</button>
+          <button type="submit" className="btn">Inscrever!</button>
+          
         </div>
       </div>
 

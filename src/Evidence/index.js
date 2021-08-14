@@ -75,11 +75,6 @@ function Evidence() {
                 <div className="evidence__button-contact-us">
                     <a href="#" className="btn">Inscreva-se já</a>
                 </div>
-
-
-
-
-
             </div>
         </section>
     )

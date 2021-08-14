@@ -50,5 +50,53 @@
 }
 
 @media (max-width: 576px) {
+  .banner {
+    align-items: flex-end;
+    height: auto;
+
+    &__container.container {
+      padding: 0;
+    }
+
+    &__description {
+      width: 100vw;
+    }
+
+    &__description-content {
+      width: 100vw;
+      height: auto;
+      background: $bg-secondary;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 0;
+    }
+
+    &__text-description {
+      font-size: 1rem;
+      line-height: 2.5rem;
+      text-align: center;
+    }
   
+    &__container {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  
+    &__title {
+      text-align: center;
+    }
+
+    &__text-description {
+      font-size: 1.3rem;
+      line-height: 3rem;
+    }
+
+    .btn {
+      display: none;
+    }
+  }
+
 }

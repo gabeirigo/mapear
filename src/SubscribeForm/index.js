@@ -1,26 +1,58 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.scss'
+import { useForm } from "react-hook-form";
+import emailjs, { init } from 'emailjs-com';
 
 function SubscribeForm() {
+
+  const { register, handleSubmit } = useForm();
+
+  useEffect(() => {
+    init(process.env.REACT_APP_EMAILJS_USER_ID);
+  }, [])
+
+  async function sendMail(data) {
+    console.log(data);
+    let form = {};
+
+    form.innerHTML = (<div>
+      <p>Nome: {data.nome}</p>
+      <p>Email: {data.email}</p>
+      <p>Whatsapp: {data.whatsapp}</p>
+      <p>Ocupação: {data.ocupacao}</p>
+    </div>);
+
+    emailjs.sendForm(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      form,
+      process.env.REACT_APP_EMAILJS_USER_ID
+    ).then(res => {
+      console.log(res);
+    }).catch(err => {
+      console.log(err);
+    });
+  }
+
   return <section className="subscribe-form">
-    <div className="container subscribe-form__container">
+    <form onSubmit={handleSubmit(sendMail)} className="container subscribe-form__container">
       <div className="subscribe-form__row">
         <div className="subscribe-form__field">
-          <input type="email" className="subscribe-form__input form-control" placeholder="Nome" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <input {...register('nome')} type="text" className="subscribe-form__input form-control" placeholder="Nome" id="exampleInputEmail1" aria-describedby="emailHelp" />
         </div>
 
         <div className="subscribe-form__field">
-          <input type="email" className="subscribe-form__input form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <input  {...register('eamil')} type="email" className="subscribe-form__input form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" />
         </div>
       </div>
 
       <div className="subscribe-form__row">
         <div className="subscribe-form__field">
-          <input type="email" className="subscribe-form__input form-control" placeholder="Whatsapp" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <input  {...register('whatsapp')} type="text" className="subscribe-form__input form-control" placeholder="Whatsapp" id="exampleInputEmail1" aria-describedby="emailHelp" />
         </div>
 
         <div className="subscribe-form__field">
-          <input type="email" className="subscribe-form__input form-control" placeholder="Ocupação" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <input  {...register('ocupacao')} type="text" className="subscribe-form__input form-control" placeholder="Ocupação" id="exampleInputEmail1" aria-describedby="emailHelp" />
         </div>
       </div>
 
@@ -37,7 +69,7 @@ function SubscribeForm() {
         </div>
       </div>
 
-    </div>
+    </form>
   </section>;
 }
 

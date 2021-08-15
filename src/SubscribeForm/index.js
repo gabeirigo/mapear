@@ -42,7 +42,7 @@ function SubscribeForm() {
         </div>
 
         <div className="subscribe-form__field">
-          <input  {...register('eamil')} type="email" className="subscribe-form__input form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" />
+          <input  {...register('email')} type="email" className="subscribe-form__input form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" />
         </div>
       </div>
 

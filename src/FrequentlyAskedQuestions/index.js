@@ -16,25 +16,25 @@ function FrequentlyAskedQuestions() {
                 <div className="frequently-asked-questions__question">
                     <p>Preciso de alguma graduação para fazer a Formação?</p>
                     <div>
-                        <img src={arrowQuestions}></img>
+                        <img src={arrowQuestions} alt="Ilustração"></img>
                     </div>
                 </div>
                 <div className="frequently-asked-questions__question">
                     <p>A Formação é online ou presencial?</p>
                     <div>
-                        <img src={arrowQuestions}></img>
+                        <img src={arrowQuestions} alt="Ilustração"></img>
                     </div>
                 </div>
                 <div className="frequently-asked-questions__question">
                     <p>Qual o valor da Formação?</p>
                     <div>
-                        <img src={arrowQuestions}></img>
+                        <img src={arrowQuestions} alt="Ilustração"></img>
                     </div>
                 </div>
             </article>
 
             <div className="frequently-asked-questions__button-contact-us">
-                    <a href="#" className="btn">Inscrever</a>
+                    <a href="/" className="btn">Inscrever</a>
                 </div>
            </div>
         </section>

@@ -17,8 +17,8 @@ function Footer() {
       <div className="container">
         <div className="footer__content">
           <div>
-            <a href="#" className="footer__logo">
-              <img src={mapearBrand}></img>
+            <a href="/" className="footer__logo">
+              <img src={mapearBrand} alt="Logo Mapear"></img>
             </a>
           </div>
 

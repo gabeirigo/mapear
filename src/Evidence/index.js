@@ -73,13 +73,8 @@ function Evidence() {
                 </article>
 
                 <div className="evidence__button-contact-us">
-                    <a href="#" className="btn">Inscreva-se já</a>
+                    <a href="google.com" className="btn">Inscreva-se já</a>
                 </div>
-
-
-
-
-
             </div>
         </section>
     )

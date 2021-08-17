@@ -52,6 +52,13 @@
   .banner {
     align-items: flex-end;
     height: auto;
+    background-image: url("../assets/img/svg/image-banner-small.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+
 
     &__container.container {
       padding: 0;

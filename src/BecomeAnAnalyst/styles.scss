@@ -35,8 +35,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    // margin: 4rem 0;
+    align-items: center;
   }
 
   &__persona img {
@@ -52,7 +51,6 @@
   }
 
   &__info {
-    // margin-top: 2rem;
     display: flex;
     justify-content: center;
   }
@@ -77,11 +75,30 @@
   }
 }
 
+@media (min-width: 581px) and (max-width: 1200px) {
+  .become-an-analyst {
+    padding: $large-content-padding;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &__content-personas {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-gap: 4rem;
+      grid-column-gap: 2rem;
+    }
+
+    &__persona-title {
+      margin-top: 1rem;
+    }
+  }
+}
 @media (max-width: 580px) {
   .become-an-analyst {
     padding: $small-content-padding;
     text-align: center;
-
 
     &__content-personas {
       margin: 2rem 0;
@@ -89,7 +106,7 @@
     }
 
     &__persona {
-      margin-top:1.5rem;
+      margin-top: 1.5rem;
     }
 
     &__persona img {

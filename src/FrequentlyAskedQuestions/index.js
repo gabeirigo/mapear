@@ -1,44 +1,71 @@
-import React from 'react';
-import './styles.scss';
-import arrowQuestions from '../assets/img/svg/arrow-questions.svg';
+import React, { useState } from 'react';
+import { Accordion, AccordionTab } from 'primereact/accordion';
+import './styles.scss'
+import './accordionDemo.scss';
 
-function FrequentlyAskedQuestions() {
+import 'primereact/resources/themes/saga-blue/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+
+
+
+export const FrequentlyAskedQuestions = () => {
+
+    const [activeIndex, setActiveIndex] = useState(null);
+
+    const onClick = (itemIndex) => {
+        let _activeIndex = activeIndex ? [...activeIndex] : [];
+
+        if (_activeIndex.length === 0) {
+            _activeIndex.push(itemIndex);
+        }
+        else {
+            const index = _activeIndex.indexOf(itemIndex);
+            if (index === -1) {
+                _activeIndex.push(itemIndex);
+            }
+            else {
+                _activeIndex.splice(index, 1);
+            }
+        }
+
+        setActiveIndex(_activeIndex);
+    }
+
     return (
         <section className="frequently-asked-questions" id="frequently-asked-questions">
-           <div className="container"> 
-           <div className="frequently-asked-questions__content-title">
-                <h2 className="frequently-asked-questions__title title">
-                    Dúvidas Frequentes
-                </h2>
-            </div>
+            <div className="container">
+                <div className="frequently-asked-questions__content-title">
+                    <h2 className="frequently-asked-questions__title title">
+                        Dúvidas Frequentes
+                    </h2>
+                </div>
+                <article className="frequently-asked-questions__content">
+                    <div className="frequently-asked-questions__card">
+                        <Accordion>
+                            <AccordionTab header="Preciso de alguma graduação para fazer a Formação?">
+                                <p>Independente da sua formação acadêmica, a Formação em Análise Comportamental é para quem deseja adquirir conhecimento em desenvolvimento humano ou iniciar uma nova atuação profissional e aumentar a sua renda.</p>
+                            </AccordionTab>
+                            <AccordionTab header="A Formação é online ou presencial?">
+                                <p>Turmas online e presencial.</p>
+                            </AccordionTab>
+                            <AccordionTab header="Qual o valor da Formação?">
+                                <p>O investimento para formação é R$XX,xx</p>
+                            </AccordionTab>
+                        </Accordion>
+                    </div>
+                </article>
 
-            <article className="frequently-asked-questions__content">
-                <div className="frequently-asked-questions__question">
-                    <p>Preciso de alguma graduação para fazer a Formação?</p>
-                    <div>
-                        <img src={arrowQuestions} alt="Ilustração"></img>
-                    </div>
-                </div>
-                <div className="frequently-asked-questions__question">
-                    <p>A Formação é online ou presencial?</p>
-                    <div>
-                        <img src={arrowQuestions} alt="Ilustração"></img>
-                    </div>
-                </div>
-                <div className="frequently-asked-questions__question">
-                    <p>Qual o valor da Formação?</p>
-                    <div>
-                        <img src={arrowQuestions} alt="Ilustração"></img>
-                    </div>
-                </div>
-            </article>
-
-            <div className="frequently-asked-questions__button-contact-us">
+                <div className="frequently-asked-questions__button-contact-us">
                     <a href="/" className="btn">Inscrever</a>
                 </div>
-           </div>
+                
+            </div>
+
+
         </section>
     )
+
 }
 
 export default FrequentlyAskedQuestions;

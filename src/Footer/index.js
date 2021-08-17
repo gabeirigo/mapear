@@ -30,18 +30,18 @@ function Footer() {
 
           <div className="footer__contact">
             <div className="footer__address">
-              <img src={locationIcon} alt="Localização Ícone" title="Localização"></img>
+              <img className="footer__icon" src={locationIcon} alt="Localização Ícone" title="Localização"></img>
               <p>Av. Afonso Pena, 4465 – Umuarama
                 Uberlândia – MG, CEP: 38405-309</p>
             </div>
 
             <div className="footer__whatsapp-number">
-              <img src={whatsappIcon} alt="Whatsapp Ícone" title="Whatsapp"></img>
+              <img className="footer__icon" src={whatsappIcon} alt="Whatsapp Ícone" title="Whatsapp"></img>
               <p>(34) 98431-1111</p>
             </div>
 
             <div className="footer__email">
-              <img src={emailIcon} alt="Email Ícone" title="Email"></img>
+              <img className="footer__icon" src={emailIcon} alt="Email Ícone" title="Email"></img>
               <p>fale@mapearperfil.com.br</p>
             </div>
           </div>

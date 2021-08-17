@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.scss';
+import './swiper.scss';
 import evidencePersonaImage from '../assets/img/svg/big-girl.svg'
-import user from '../assets/img/svg/user.svg';
-import arrow from '../assets/img/svg/arrow.svg';
 
 function Evidence() {
     return (
@@ -28,18 +27,7 @@ function Evidence() {
                     <div className="evidence__container-results">
 
                         <div className="evidence__students-results-slide">
-
-                            <img className="evidence__arrow-previous" src={arrow} alt="Anterior" title="Anterior"></img>
-
-                            <div className="evidence__user">
-                                <img src={user} alt="user"></img>
-                            </div>
-                            <div className="evidence__user-coment">
-                                <h2>Jaciara Morais - Gerente de RH | Grupo Zema</h2>
-                                <p>A ferramenta de perfil comportamental que a Mapear Perfil nos oferece tem sido primordial para o desenvolvimento das nossas lideranças. Oferecem informações detalhadas, objetivas e aplicáveis nos possibilitando tomar decisões sobre contratações e desenvolvimento pessoal e profissional. Já mapeamos mais de 600 colaboradores e estamos muito felizes com os resultados que a ferramenta nos traz.</p>
-                            </div>
-
-                            <img className="evidence__arrow-next" src={arrow} alt="Próximo" title="Próximo"></img>
+                            
 
                         </div>
 

@@ -2,6 +2,7 @@
 
 .frequently-asked-questions {
   padding: $large-content-padding;
+  outline: none;
 
   &__content-title {
     display: flex;
@@ -24,20 +25,8 @@
     align-items: center;
   }
 
-  &__question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 0.8rem;
-    width: 60%;
-    height: 4.4rem;
-    margin-bottom: 0.5rem;
-    border: 0.031rem solid #e4e4e4;
-    border-radius: $radius;
-  }
-
-  &__question p {
-    margin: 0;
+  &__card {
+    width: 90%;
   }
 
   &__button-contact-us {
@@ -56,9 +45,10 @@
   }
 }
 
-@media (max-width: 575.98px) {
+
+@media (min-width: 581px) and (max-width: 1000px) {
   .frequently-asked-questions {
-    padding: $small-content-padding;
+    padding: $large-content-padding;
 
     &__question {
       display: flex;
@@ -74,8 +64,7 @@
   }
 }
 
-
-@media (min-width: 581px) and (max-width: 767px) {
+@media (max-width: 580px) {
   .frequently-asked-questions {
     padding: $small-content-padding;
 
@@ -90,7 +79,9 @@
       border: 0.031rem solid #e4e4e4;
       border-radius: $radius;
     }
+
+    &__question p {
+      margin-left: 0.5rem;
+    }
   }
 }
-
-

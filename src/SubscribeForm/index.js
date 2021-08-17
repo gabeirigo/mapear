@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './style.scss'
-import { useForm } from "react-hook-form";
+import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 
 function SubscribeForm() {
 
   const { register, handleSubmit } = useForm();
-  const [ loading, setLoading ] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   function sendMail(data) {
     setLoading(true);
@@ -32,21 +32,17 @@ function SubscribeForm() {
         </div>
 
         <div className="subscribe-form__field">
-<<<<<<< HEAD
           <input  {...register('email')} type="email" className="subscribe-form__input form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp" />
-=======
-          <input  {...register('email')} type="email" className="subscribe-form__input form-control" placeholder="Email"  />
->>>>>>> 861f218b90ac46a63253e962307cbabd182ec058
         </div>
       </div>
 
       <div className="subscribe-form__row">
         <div className="subscribe-form__field">
-          <input  {...register('whatsapp')} type="text" className="subscribe-form__input form-control" placeholder="Whatsapp"  />
+          <input  {...register('whatsapp')} type="text" className="subscribe-form__input form-control" placeholder="Whatsapp" />
         </div>
 
         <div className="subscribe-form__field">
-          <input  {...register('ocupacao')} type="text" className="subscribe-form__input form-control" placeholder="Ocupação"  />
+          <input  {...register('ocupacao')} type="text" className="subscribe-form__input form-control" placeholder="Ocupação" />
         </div>
       </div>
 
@@ -62,7 +58,7 @@ function SubscribeForm() {
             {
               loading ? <i className="icofont-spinner animation-spin"></i> : null
             }
-            Inscrever!
+            Enviar
           </button>
         </div>
       </div>

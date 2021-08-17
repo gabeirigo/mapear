@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.p-accordion
+  .p-accordion-tab:first-child
+  .p-accordion-header
+  .p-accordion-header-link {
+  border-top-right-radius: $radius !important;
+  border-top-left-radius: $radius !important;
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link {
+  padding: 24px !important;
+  background-color: white !important;
+  
+  box-shadow: none !important;
+}
+
+.p-accordion .p-accordion-header .p-accordion-header-link:hover {
+  background-color: #F2F2F6 !important;
+}
+
+.p-accordion
+  .p-accordion-header:not(.p-disabled)
+  .p-accordion-header-link:focus {
+  box-shadow: none !important;
+}
+.p-accordion .p-accordion-content {
+    padding: 14px 24px!important;
+    background: white !important;
+}
+
+.p-accordion-header-text {
+  font-family: "Open Sans", sans-serif ;
+  font-weight: 400;
+  line-height: 1.5rem !important;
+  
+  
+}
+
+.p-component, .p-component * {
+    margin: 0;
+    
+}

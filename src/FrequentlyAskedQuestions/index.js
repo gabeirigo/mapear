@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Accordion, AccordionTab } from 'primereact/accordion';
 import './styles.scss'
 import './accordionDemo.scss';
@@ -9,28 +9,7 @@ import 'primeicons/primeicons.css';
 
 
 
-export const FrequentlyAskedQuestions = () => {
-
-    const [activeIndex, setActiveIndex] = useState(null);
-
-    const onClick = (itemIndex) => {
-        let _activeIndex = activeIndex ? [...activeIndex] : [];
-
-        if (_activeIndex.length === 0) {
-            _activeIndex.push(itemIndex);
-        }
-        else {
-            const index = _activeIndex.indexOf(itemIndex);
-            if (index === -1) {
-                _activeIndex.push(itemIndex);
-            }
-            else {
-                _activeIndex.splice(index, 1);
-            }
-        }
-
-        setActiveIndex(_activeIndex);
-    }
+function FrequentlyAskedQuestions() {
 
     return (
         <section className="frequently-asked-questions" id="frequently-asked-questions">
@@ -55,17 +34,22 @@ export const FrequentlyAskedQuestions = () => {
                         </Accordion>
                     </div>
                 </article>
-
+    
                 <div className="frequently-asked-questions__button-contact-us">
                     <a href="/" className="btn">Inscrever</a>
                 </div>
-                
+    
             </div>
-
-
+    
+    
         </section>
     )
-
 }
+
+
+
+
+
+
 
 export default FrequentlyAskedQuestions;

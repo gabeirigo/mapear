@@ -36,7 +36,7 @@ function FrequentlyAskedQuestions() {
                 </article>
     
                 <div className="frequently-asked-questions__button-contact-us">
-                    <a href="/" className="btn">Inscrever</a>
+                    <a href="/" className="btn btn-lg">Inscrever</a>
                 </div>
     
             </div>

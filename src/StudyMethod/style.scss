@@ -2,25 +2,14 @@
 
 .study-method {
   padding: $large-content-padding;
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
+  
   &__content-title {
-    display: flex;
-    justify-content: center;
+
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-align: center;
-  }
-
-  &__title {
-    text-align: center;
-    width: 500px;
-    max-width: 90%;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
   }
 
   &__info-paragraph {
@@ -30,6 +19,7 @@
 
   &__info-paragraph-paragraph {
     text-align: center;
+    font-size: 1.2rem;
   }
 
   &__content-cards {
@@ -59,10 +49,10 @@
   }
 
   &__card-p {
-    margin: 0.2rem 0 0 0;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem 0 0 0;
     text-align: center;
-    font-size: 0.875rem;
-    font-weight: 900;
+    font-weight: 600;
   }
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 import evidencePersonaImage from '../assets/img/svg/big-girl.svg'
-import  Slide  from '../SwiperSlide';
+import SwiperBox from '../SwiperBox';
 
 function Evidence() {
     return (
@@ -19,16 +19,11 @@ function Evidence() {
                 </div>
 
                 <div className="evidence__content-results">
-
                     <img className="evidence__persona-image" src={evidencePersonaImage} alt="Depoimentos" title="Depoimentos"></img>
 
-
-
                     <div className="evidence__container-results">
-
                         <div className="evidence__students-results-slide">
-                           <Slide></Slide>
-
+                           <SwiperBox></SwiperBox>
                         </div>
 
                         <div className="evidence__students-results-videos">
@@ -61,7 +56,7 @@ function Evidence() {
                 </article>
 
                 <div className="evidence__button-contact-us">
-                    <a href="google.com" className="btn">Inscreva-se já</a>
+                    <a href="google.com" className="btn btn-lg">Inscreva-se já</a>
                 </div>
             </div>
         </section>

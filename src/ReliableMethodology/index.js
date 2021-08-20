@@ -30,7 +30,6 @@ function ReliableMethodology() {
                     </div>
                     <div className="reliable-methodology__companies">
                         <img src={uspImage} alt="USP" title="USP"></img>
-
                     </div>
                     <div className="reliable-methodology__companies">
                         <img src={fumsoftImage} alt="Fumsoft" title="Fumsoft"></img>

@@ -18,8 +18,9 @@
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
-    width: 500px;
     max-width: 90%;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
   }
 
   &__content-personas {
@@ -39,15 +40,16 @@
   }
 
   &__persona img {
-    height: 10rem;
+    height: 8rem;
   }
 
   &__persona-title {
     font-size: 1.2rem;
+    line-height: 2.2rem;
     font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: 900;
   }
 
   &__info {
@@ -57,6 +59,7 @@
 
   &__info p {
     text-align: center;
+    font-size: 1.2rem;
   }
 
   &__button-contact-us {
@@ -68,9 +71,7 @@
   &__button-contact-us a {
     color: white;
     width: 25rem;
-    height: 2.5rem;
     background-color: #f77737;
-
     border-radius: 0.5rem;
   }
 }

@@ -5,8 +5,8 @@ import profile from '../assets/img/svg/image-profile.svg';
 
 function Info() {
   return (
-    <section id="info" className="info">
-      <div className="container">
+    <div className="container">
+      <section id="info" className="info">
         <article className="info__row">
           <div className="info__content">
             <div>
@@ -33,8 +33,8 @@ function Info() {
           </div>
 
         </article>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }
 

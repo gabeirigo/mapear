@@ -1,22 +1,29 @@
 @import "../variables.scss";
 
 .info {
-  padding: $large-content-padding;
+  padding: $large-content-padding 0;
 
   &__content {
     display: flex;
     align-items: center;
-    grid-column-gap: 3rem;
+    grid-column-gap: 12rem;
   }
 
   &__title {
     font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
   }
+
   &__row {
     margin-bottom: 4rem;
     display: flex;
     align-items: center;
     column-gap: 10rem;
+  }
+
+  &__description {
+    font-size: 1.2rem;
   }
 
   &__description-highlight {
@@ -29,18 +36,16 @@
 
   &__image-profile {
     margin-bottom: 2rem;
-    width: 16rem;
+    width: 20rem;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: $radius;
   }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 581px) {
   .info {
     padding: $small-content-padding;
-    // text-align: center;
-
     &__container {
       display: flex;
       flex-direction: column;
@@ -73,7 +78,7 @@
   }
 }
 
-@media (min-width: 581px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .info {
     padding: $large-content-padding;
 

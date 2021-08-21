@@ -9,7 +9,7 @@ function Info() {
       <section id="info" className="info">
         <article className="info__row">
           <div className="info__content">
-            <div>
+            <div className="info__professional-career">
               <h2 className="info__title title">Dê um grande passo na sua carreira profissional</h2>
               <p className="info__description">A Formação Analista Comportamental fornece ferramentas essenciais para atuar em diversas áreas de Recursos Humanos, como <span className="info__description-highlight">Recrutamento, Seleção, Desenvolvimento, Retenção de Talentos, Aumento de Produtividade, Formação de Liderança e mais. </span>Entre em contato para saber mais.</p>
             </div>

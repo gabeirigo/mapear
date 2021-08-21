@@ -14,7 +14,7 @@
   }
 
   &__title {
-    font-family: "Poppins", sans-serif;
+    font-family: $font-title;
     font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
@@ -68,11 +68,21 @@
     justify-content: center;
   }
 
+  
   &__button-contact-us a {
     color: white;
     width: 25rem;
     background-color: #f77737;
     border-radius: 0.5rem;
+  }
+
+  .btn {
+    border:none;
+  }
+
+  .btn:hover {
+    color: white;
+    background-color: #DB6A31;
   }
 }
 

@@ -11,8 +11,7 @@
   }
 
   &__title {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-family: $font-title;
     margin-bottom: 2rem;
 
     width: 575px;
@@ -41,8 +40,16 @@
     background-color: #f77737;
     border-radius: 0.5rem;
   }
-}
 
+  .btn {
+    border: none;
+  }
+
+  .btn:hover {
+    color: white;
+    background-color: #DB6A31;
+  }
+}
 
 @media (min-width: 581px) and (max-width: 1000px) {
   .frequently-asked-questions {

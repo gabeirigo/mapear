@@ -64,8 +64,8 @@ function StudyMethod() {
                     </div>
                 </div>
 
-                <div className="become-an-analyst__button-contact-us">
-                    <a href="/" className="btn btn-lg">Fale com um de nossos consultores</a>
+                <div className="study-method__button-contact-us">
+                    <a href="/" className="btn btn-primary btn-lg">Fale com um de nossos consultores</a>
                 </div>
             </div>
 

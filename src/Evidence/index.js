@@ -56,7 +56,7 @@ function Evidence() {
                 </article>
 
                 <div className="evidence__button-contact-us">
-                    <a href="google.com" className="btn btn-lg">Inscreva-se já</a>
+                    <a href="/" className="btn btn-primary btn-lg">Inscreva-se já</a>
                 </div>
             </div>
         </section>

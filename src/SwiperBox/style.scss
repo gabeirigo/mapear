@@ -7,4 +7,25 @@
     width: 100%;
     padding: 0 5rem;
   }
+
+  &__author {
+    font-size: 1rem;
+  }
+
+  &__testimonial-author {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-container-rtl .swiper-button-next:after {
+    font-size: 2rem;
+    color: #3f3d56;
+  }
+
+  .swiper-button-next:after,
+  .swiper-container-rtl .swiper-button-prev:after {
+    font-size: 2rem;
+    color: #3f3d56;
+  }
 }

@@ -41,5 +41,18 @@
     font-size: 2rem;
     color: #3f3d56;
   }
+
+  @media (max-width: 580px) {
+    &__item {
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
 }
 

@@ -44,3 +44,11 @@ span {
     max-width: 1100px;
   }
 }
+
+@media (max-width: 580px) {
+  .title {
+    font-size: 1.4rem !important;
+    line-height: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+}

@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.scss';
 import evidencePersonaImage from '../assets/img/svg/big-girl.svg'
-import user from '../assets/img/svg/user.svg';
-import arrow from '../assets/img/svg/arrow.svg';
+import SwiperBox from '../SwiperBox';
 
 function Evidence() {
     return (
@@ -20,32 +19,20 @@ function Evidence() {
                 </div>
 
                 <div className="evidence__content-results">
-
                     <img className="evidence__persona-image" src={evidencePersonaImage} alt="Depoimentos" title="Depoimentos"></img>
 
-
-
                     <div className="evidence__container-results">
-
                         <div className="evidence__students-results-slide">
-
-                            <img className="evidence__arrow-previous" src={arrow} alt="Anterior" title="Anterior"></img>
-
-                            <div className="evidence__user">
-                                <img src={user} alt="user"></img>
-                            </div>
-                            <div className="evidence__user-coment">
-                                <h2>Jaciara Morais - Gerente de RH | Grupo Zema</h2>
-                                <p>A ferramenta de perfil comportamental que a Mapear Perfil nos oferece tem sido primordial para o desenvolvimento das nossas lideranças. Oferecem informações detalhadas, objetivas e aplicáveis nos possibilitando tomar decisões sobre contratações e desenvolvimento pessoal e profissional. Já mapeamos mais de 600 colaboradores e estamos muito felizes com os resultados que a ferramenta nos traz.</p>
-                            </div>
-
-                            <img className="evidence__arrow-next" src={arrow} alt="Próximo" title="Próximo"></img>
-
+                            <SwiperBox></SwiperBox>
                         </div>
 
                         <div className="evidence__students-results-videos">
-                            <div className="evidence__video"></div>
-                            <div className="evidence__video"></div>
+                            <div className="evidence__video">
+                                <iframe src="https://www.youtube.com/embed/hTRx12pq6yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="evidence__video">
+                            <iframe src="https://www.youtube.com/embed/v72Lftbw_X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -73,7 +60,7 @@ function Evidence() {
                 </article>
 
                 <div className="evidence__button-contact-us">
-                    <a href="google.com" className="btn">Inscreva-se já</a>
+                    <a href="#form" className="btn btn-primary btn-lg">Inscrever</a>
                 </div>
             </div>
         </section>

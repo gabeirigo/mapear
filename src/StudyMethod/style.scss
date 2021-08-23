@@ -1,120 +1,132 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .study-method {
-    padding: $large-content-padding;
+  padding: $large-content-padding;
+  
+  &__content-title {
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    font-family: $font-title;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+  }
 
-    &__content-title {
-        display: flex;
-        justify-content: center;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        text-align: center;
-    }
+  &__info-paragraph {
+    display: flex;
+    justify-content: center;
+  }
 
-    &__title {
-        text-align: center;
-        width: 500px;
-        max-width: 90%;
-    }
+  &__info-paragraph-paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 
-    &__info-paragraph {
-        display: flex;
-        justify-content: center;
-    }
+  &__content-cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: $md-gap;
+    margin-top: $md-gap;
+  }
 
-    &__info-paragraph-paragraph {
-        text-align: center;
-    }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: $radius;
+    box-shadow: $box-shadow-4;
+    width: 100%;
+    padding: $small-box-padding;
+  }
 
-    &__content-cards {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: $md-gap;
-        margin-top: $md-gap;
-    }
+  &__card img {
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-bottom: 0.4rem;
+  }
 
-    &__card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: $radius;
-        box-shadow: $box-shadow-4;
-        width: 100%;
-        padding: $small-box-padding;
-    }
+  &__card-p {
+    font-family: $font-body;
+    margin: 1rem 0 0 0;
+    text-align: center;
+    font-weight: 600;
+  }
 
-    &__card img {
-        width: 2.75rem;
-        height: 2.75rem;
-        margin-bottom: .4rem;
-    }
+  &__button-contact-us {
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    &__card-p {
-        margin: 0.2rem 0 0 0;
-        text-align: center;
-        font-size: 0.875rem;
-        font-weight: 900;
-    }
+  
+  &__button-contact-us a {
+    color: white;
+    width: 25rem;
+    background-color: #f77737;
+    border-radius: 0.5rem;
+  }
+
+  .btn {
+    border: none;
+  }
+
+  .btn:hover {
+    color: white;
+    background-color: #DB6A31;
+  }
 }
 
 /* MEDIA QUERIES */
 
-
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-    .study-method {
-        padding: $large-content-padding;
-        
-        &__content-cards {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: auto;
-        }
-        
-        &__card {
-            margin-top: 1rem;
-        }
+  .study-method {
+    padding: $large-content-padding;
+
+    &__content-cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
     }
+
+    &__card {
+      margin-top: 1rem;
+    }
+  }
 }
 
-//  Small devices (landscape phones, less than 768px)
-@media (max-width: 768px) {
-    .study-method {
-        padding: $large-content-padding;
 
-        &__content-cards {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(192px, 1fr));           
-            grid-template-rows: auto;
-        }
-        
-        &__card {
-            margin-top: 1rem;
-        }
+@media (min-width: 581px) and (max-width: 768px) {
+  .study-method {
+    padding: $large-content-padding;
+
+    &__content-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(192px, 1fr));
+      grid-template-rows: auto;
     }
+
+    &__card {
+      margin-top: 1rem;
+    }
+  }
 }
 
-@media (max-width: 575.98px) {
-    .study-method {
-        padding: $large-content-padding;
+@media (max-width: 580px) {
+  .study-method {
+    padding: $small-content-padding;
 
-        &__content-cards {
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: auto;
-        }
-
-        &__card {
-            margin-top: 1rem;
-        }
+    &__content-cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: auto;
     }
+
+    &__card {
+      margin-top: 1rem;
+    }
+  }
 }

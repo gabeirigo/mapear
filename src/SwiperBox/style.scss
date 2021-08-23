@@ -1,0 +1,45 @@
+.swiper-box {
+  position: relative;
+  display: block;
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    width: 100%;
+    padding: 1rem 5rem;
+  }
+
+  &__author {
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  &__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__testimonial-author {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-container-rtl .swiper-button-next:after {
+    font-size: 2rem;
+    color: #3f3d56;
+  }
+
+  .swiper-button-next:after,
+  .swiper-container-rtl .swiper-button-prev:after {
+    font-size: 2rem;
+    color: #3f3d56;
+  }
+}
+

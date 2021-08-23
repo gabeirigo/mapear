@@ -1,11 +1,20 @@
-@import '../variables.scss';
+@import "../variables.scss";
 
 .info {
-    padding: $large-content-padding;
+  padding: $large-content-padding 0;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 12rem;
+  }
 
   &__title {
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-title;
+    font-size: 2rem;
+    line-height: 3rem;
   }
+
   &__row {
     margin-bottom: 4rem;
     display: flex;
@@ -13,39 +22,85 @@
     column-gap: 10rem;
   }
 
+  &__description {
+    font-size: 1.2rem;
+    
+  }
+
   &__description-highlight {
     font-weight: 600;
   }
 
   &__image {
-    height: 100%;
+    height: 18rem;
+  }
+
+  &__image-profile {
+    margin-bottom: 2rem;
+    width: 18rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: $radius;
   }
 }
 
-@media (max-width: 580px) {
+
+
+@media (max-width: 768px) {
+  .info {
+    padding: $large-content-padding;
+
+    &__content {
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__images-rhImage {
+      display: none;
+   }
+
+    &__row {
+      margin-bottom: 0;
+      column-gap: 4rem;
+    }
+  }
+}
+
+
+@media (max-width: 581px) {
   .info {
     padding: $small-content-padding;
 
     &__container {
       display: flex;
       flex-direction: column;
+    }
+
+    &__content {
+      margin: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__title {
       text-align: center;
     }
 
     &__images-rhImage {
-      display: none;
+       display: none;
     }
 
-    &__image {
-      height: 10rem;
+    &__image-profile {
+      height: 12rem;
       margin-bottom: 1rem;
     }
 
     &__row {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       flex-direction: column;
     }
   }
-
-
 }

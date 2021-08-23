@@ -11,7 +11,7 @@ function Banner() {
           <span className="banner__title-bold">Analista Comportamental</span>
         </h2>
         <p className="banner__text-description">Faça parte do RH do fututro!</p>
-        <a href="google.com" className="btn btn-primary btn-lg">Cadastre-se</a>
+        <a href="#form" className="btn btn-primary btn-lg">Cadastre-se</a>
       </div>
       </div>
     </section>

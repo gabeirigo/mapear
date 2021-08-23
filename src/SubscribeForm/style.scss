@@ -31,14 +31,15 @@
     }
   }
 
-  .btn {
-    color: white;
-    width: 15rem;
-    height: 2.5rem;
-    background-color: #f77737;
+  .btn-primary {
+    background-color: #F77737;
     border: none;
-    border-radius: 0.5rem;
-    }
+  }
+
+  .btn-primary:hover {
+    background-color: #DB6A31;
+    transition: 0.5s;
+  }
 
   &__input {
     padding: 12px 12px;
@@ -51,7 +52,41 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 581px) and (max-width: 770px) {
+  .subscribe-form {
+    &__row {
+      display: block;
+    }
+
+    &__container {
+      gap: 0;
+      max-width: 600px;
+    }
+
+    
+    &__field {
+      width: 100%;
+      align-items: center;
+      
+      &--control {
+        margin-bottom: 1rem;
+      }
+      
+      &--button {
+        justify-content: center;
+      }
+    }
+    
+    
+    &__input {
+      margin-bottom: 1rem;
+    }
+    
+    
+  }
+}
+
+@media (max-width: 580px) {
   .subscribe-form {
     &__row {
       display: block;
@@ -70,8 +105,7 @@
       }
     }
 
-    
-     &__container {
+    &__container {
       gap: 0;
     }
 
@@ -79,14 +113,14 @@
       margin-bottom: 1rem;
     }
 
-    .btn {
-    color: white;
-    width: 25rem;
-    height: 2.5rem;
-    background-color: #f77737;
-    border: none;
-    border-radius: 0.5rem;
-    }
+    // .btn {
+    //   color: white;
+    //   width: 25rem;
+    //   height: 2.5rem;
+    //   background-color: #f77737;
+    //   border: none;
+    //   border-radius: 0.5rem;
+    // }
   }
 }
 
@@ -94,12 +128,11 @@
   animation: loading 2s linear infinite;
 }
 
-
 @keyframes loading {
-	0% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

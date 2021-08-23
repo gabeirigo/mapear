@@ -14,10 +14,13 @@ function BecomeAnAnalyst() {
           Quem pode se tornar um Analista Comportamental?
         </h2>
       </div>
+      <div className="become-an-analyst__info">
+        <p>A Formação em Análise Comportamental é para quem deseja adquirir conhecimento em desenvolvimento humano ou iniciar uma nova atuação profissional e aumentar a sua renda.</p>
+      </div>
 
       <div className="become-an-analyst__content-personas">
         <article className="become-an-analyst__persona">
-          <img src={rhProfessionals} alt="Profissionais de RH" title="Profissionais de RH"/>
+          <img src={rhProfessionals} alt="Profissionais de RH" title="Profissionais de RH" />
           <h2 className="become-an-analyst__persona-title">Profissionais de RH</h2>
         </article>
         <article className="become-an-analyst__persona">
@@ -33,11 +36,8 @@ function BecomeAnAnalyst() {
           <h2 className="become-an-analyst__persona-title">Interessados no desenvolvimento humano</h2>
         </article>
       </div>
-      <div className="become-an-analyst__info">
-        <p>Em resumo, a Formação em Análise Comportamental é para quem deseja adquirir conhecimento em desenvolvimento humano ou iniciar uma nova atuação profissional e aumentar a sua renda.</p>
-      </div>
       <div className="become-an-analyst__button-contact-us">
-        <a href="google.com" className="btn">Fale com um de nossos consultores</a>
+        <a href="https://api.whatsapp.com/send?phone=5534984311111" target="_blank" className="btn btn-primary btn-lg" rel="noreferrer">Fale com um de nossos consultores</a>
       </div>
 
     </div>

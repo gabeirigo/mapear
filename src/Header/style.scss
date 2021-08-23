@@ -1,25 +1,16 @@
 @import '../variables.scss';
 
 .header {
-  
-  &__container {
-    
+  .navbar {
+    padding: 1rem 0;
+    align-items: center;
   }
 
-  &__logo {
+  &__navbar-brand img {
+    height: 2.5rem;
   }
 
-  &__nav {
-  }
-
-  &__items {
-  }
-
-  &__item {
-    
-  }
-
-  .nav-link {
-   
+  .show {
+    margin-top: 1rem;
   }
 }

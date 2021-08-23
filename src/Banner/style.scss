@@ -19,7 +19,8 @@
   }
 
   &__text-description {
-    font-size: 1.1rem;
+    font-family: $font-body;
+    font-size: 1.3rem;
     line-height: 2.8rem;
   }
 
@@ -32,13 +33,13 @@
     display: flex;
     flex-direction: column;
     line-height: 3rem;
-    font-family: "Poppins", sans-serif;
+    font-family: $font-title;
     font-size: 2rem;
     color: $text-color-title;
   }
 
   &__title-bold {
-    font-family: "Poppins", sans-serif;
+    font-family: $font-title;
     font-weight: 700;
   }
 
@@ -46,12 +47,23 @@
     background-color: #f77737;
     border: none;
   }
+
+  .btn:hover {
+    background-color: #DB6A31;
+  }
 }
 
 @media (max-width: 576px) {
   .banner {
     align-items: flex-end;
     height: auto;
+    background-image: url("../assets/img/svg/image-banner-small.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+
 
     &__container.container {
       padding: 0;

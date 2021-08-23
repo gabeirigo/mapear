@@ -65,7 +65,7 @@ function StudyMethod() {
                 </div>
 
                 <div className="study-method__button-contact-us">
-                    <a href="/" className="btn btn-primary btn-lg">Fale com um de nossos consultores</a>
+                    <a href="https://api.whatsapp.com/send?phone=5534984311111" target="_blank" className="btn btn-primary btn-lg" rel="noreferrer">Fale com um de nossos consultores</a>
                 </div>
             </div>
 

@@ -23,12 +23,16 @@ function Evidence() {
 
                     <div className="evidence__container-results">
                         <div className="evidence__students-results-slide">
-                           <SwiperBox></SwiperBox>
+                            <SwiperBox></SwiperBox>
                         </div>
 
                         <div className="evidence__students-results-videos">
-                            <div className="evidence__video"></div>
-                            <div className="evidence__video"></div>
+                            <div className="evidence__video">
+                                <iframe src="https://www.youtube.com/embed/hTRx12pq6yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="evidence__video">
+                            <iframe src="https://www.youtube.com/embed/v72Lftbw_X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,7 +60,7 @@ function Evidence() {
                 </article>
 
                 <div className="evidence__button-contact-us">
-                    <a href="/" className="btn btn-primary btn-lg">Inscreva-se já</a>
+                    <a href="#form" className="btn btn-primary btn-lg">Inscrever</a>
                 </div>
             </div>
         </section>

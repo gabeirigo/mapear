@@ -1,20 +1,33 @@
 .swiper-box {
-  // width: 400px;
   position: relative;
   display: block;
 
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
   &__item {
     width: 100%;
-    padding: 0 5rem;
+    padding: 1rem 5rem;
   }
 
   &__author {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  &__testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__testimonial-author {
     font-size: 1rem;
     line-height: 1.5rem;
+    text-align: justify;
   }
 
   .swiper-button-prev:after,
@@ -29,3 +42,4 @@
     color: #3f3d56;
   }
 }
+

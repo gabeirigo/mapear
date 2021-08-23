@@ -29,14 +29,14 @@ function FrequentlyAskedQuestions() {
                                 <p>Turmas online e presencial.</p>
                             </AccordionTab>
                             <AccordionTab header="Qual o valor da Formação?">
-                                <p>O investimento para formação é R$XX,xx</p>
+                                <p>O investimento para formação é R$ 1200,00</p>
                             </AccordionTab>
                         </Accordion>
                     </div>
                 </article>
     
                 <div className="frequently-asked-questions__button-contact-us">
-                    <a href="/" className="btn btn-primary btn-lg">Inscrever</a>
+                    <a href="#form" className="btn btn-primary btn-lg">Inscrever</a>
                 </div>
     
             </div>

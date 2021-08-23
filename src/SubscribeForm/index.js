@@ -7,6 +7,8 @@ function SubscribeForm() {
 
   const { register, handleSubmit } = useForm();
   const [loading, setLoading] = useState(false);
+  const [messageSuccessVisible, setMessageSuccessVisible] = useState(false);
+  const [messageErrorVisible, setMessageErrorVisible] = useState(false);
 
   function sendMail(data) {
     setLoading(true);
@@ -16,19 +18,44 @@ function SubscribeForm() {
       data,
       process.env.REACT_APP_EMAILJS_USER_ID
     ).then(res => {
-      alert('Seu email foi enviado');
+      setMessageSuccessVisible(true);
+      setTimeout(() => {
+        setMessageSuccessVisible(false);
+      }, 10000)
       setLoading(false);
     }).catch(err => {
-      alert('Falha ao enviar seu contato. Tente novamente.');
+      setMessageErrorVisible(true);
+      setTimeout(() => {
+        setMessageErrorVisible(false);
+      }, 10000)
       setLoading(false);
     });
   }
 
   return (
 
-    <section className="subscribe-form">
+    <section className="subscribe-form" id="form">
       <div className="container">
+
         <form onSubmit={handleSubmit(sendMail)} className="container subscribe-form__container">
+        {
+          messageSuccessVisible
+            ? (
+
+              <div class="alert alert-success" role="alert">
+                Seu email foi enviado com sucesso! Aguarde nosso contato.
+              </div>
+            ) : null
+        }
+
+        {
+          messageErrorVisible
+            ? (
+              <div class="alert alert-danger" role="alert">
+                Ops... Algo deu errado e não conseguimos enviar seu email. Por favor, tente novamente mais tarde.
+              </div>
+            ) : null
+        }
           <div className="subscribe-form__row">
             <div className="subscribe-form__field">
               <input {...register('nome')} type="text" className="subscribe-form__input form-control" placeholder="Nome" />
@@ -61,7 +88,7 @@ function SubscribeForm() {
                 {
                   loading ? <i className="icofont-spinner animation-spin"></i> : null
                 }
-                Enviar
+                Enviar meu contato!
               </button>
             </div>
           </div>

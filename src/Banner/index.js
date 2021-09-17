@@ -7,10 +7,10 @@ function Banner() {
       <div className="banner__container container">
       <div className="banner__description-content">
         <h2 className="banner__title">
-          Formação
+          Formação Online
           <span className="banner__title-bold">Analista Comportamental</span>
         </h2>
-        <p className="banner__text-description">Faça parte do RH do fututro!</p>
+        <p className="banner__text-description">Se torne um especialista em Gestão Comportamental</p>
         <a href="#form" className="btn btn-primary btn-lg">Cadastre-se</a>
       </div>
       </div>

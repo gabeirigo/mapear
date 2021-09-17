@@ -29,7 +29,16 @@ function FrequentlyAskedQuestions() {
                                 <p>Turmas online e presencial.</p>
                             </AccordionTab>
                             <AccordionTab header="Qual o valor da Formação?">
-                                <p>O investimento para formação é R$ 1200,00</p>
+                                <p>O investimento para formação é R$ 1297,00 (podendo parcelar no cartão).</p>
+                            </AccordionTab>
+                            <AccordionTab header="Quais os benefícios que ganho com a Formação?">
+                                <p>Plataforma Web personalizada + 3 perfis e atualização do novo relatório Profiler.</p>
+                            </AccordionTab>
+                            <AccordionTab header="Já tenho certificação, posso refazer?">
+                                <p>Sim, em 2021 a ferramenta foi atualizada, importante saber interpretar novo relatório e receber atualizado materiais para devolutivas dos perfis.</p>
+                            </AccordionTab>
+                            <AccordionTab header="Como funciona a aquisição dos perfis?">
+                                <p>Temos planos especiais para quem faz a Formação na Mapear e condições diferenciadas para planos mensalistas e aquisição avulsa.</p>
                             </AccordionTab>
                         </Accordion>
                     </div>

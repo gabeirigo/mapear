@@ -2,6 +2,7 @@
 
 .header {
   .navbar {
+    color: $text-color;
     padding: 1rem 0;
     align-items: center;
   }
@@ -9,7 +10,7 @@
   &__navbar-brand img {
     height: 2.5rem;
   }
-
+  
   .show {
     margin-top: 1rem;
   }

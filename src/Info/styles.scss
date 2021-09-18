@@ -44,8 +44,6 @@
   }
 }
 
-
-
 @media (max-width: 768px) {
   .info {
     padding: $large-content-padding;
@@ -68,39 +66,3 @@
   }
 }
 
-
-@media (max-width: 581px) {
-  .info {
-    padding: $small-content-padding;
-
-    &__container {
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__content {
-      margin: 1rem 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    &__title {
-      text-align: center;
-    }
-
-    &__images-rhImage {
-       display: none;
-    }
-
-    &__image-profile {
-      height: 12rem;
-      margin-bottom: 1rem;
-    }
-
-    &__row {
-      margin-bottom: 2rem;
-      flex-direction: column;
-    }
-  }
-}

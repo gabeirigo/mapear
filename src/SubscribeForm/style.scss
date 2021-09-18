@@ -112,15 +112,6 @@
     &__input {
       margin-bottom: 1rem;
     }
-
-    // .btn {
-    //   color: white;
-    //   width: 25rem;
-    //   height: 2.5rem;
-    //   background-color: #f77737;
-    //   border: none;
-    //   border-radius: 0.5rem;
-    // }
   }
 }
 
@@ -135,4 +126,8 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.loading {
+  margin-right: 5px;
 }

@@ -41,7 +41,6 @@ function SubscribeForm() {
         {
           messageSuccessVisible
             ? (
-
               <div class="alert alert-success" role="alert">
                 Seu email foi enviado com sucesso! Aguarde nosso contato.
               </div>
@@ -86,7 +85,7 @@ function SubscribeForm() {
             <div className="subscribe-form__field subscribe-form__field--button">
               <button type="submit" className="btn btn-primary btn-lg">
                 {
-                  loading ? <i className="icofont-spinner animation-spin"></i> : null
+                  loading ? <i className="icofont-spinner icofont-spin loading"></i> : null
                 }
                 Enviar meu contato!
               </button>

@@ -11,7 +11,7 @@ function Info() {
           <div className="info__content">
             <div className="info__professional-career">
               <h2 className="info__title title">Dê um grande passo na sua carreira profissional</h2>
-              <p className="info__description">A Formação Analista Comportamental fornece ferramentas essenciais para atuar em diversas áreas de Recursos Humanos, como <span className="info__description-highlight">Recrutamento, Seleção, Desenvolvimento, Retenção de Talentos, Aumento de Produtividade, Formação de Liderança e mais. </span>Entre em contato para saber mais.</p>
+              <p className="info__description">Certificamos você no uso da ferramenta de Avaliação de Perfil Comportamental <span className="info__description-highlight">para atuar de forma mais assertiva e segura em diversas áreas, </span>Treinamento, Desenvolvimento, Coaching, Recursos Humanos, Recrutamento e Seleção, Retenção de Talentos, Aumento de Produtividade, Formação de Liderança, Gestão de Performance, Gestão de Competências.Entre em contato para saber mais sobre próxima turma.</p>
             </div>
             <div className="info__images-rhImage">
               <img className="info__image" src={rhImage} alt="Formação Analista Comportamental" title="Formação Analista Comportamental" />
@@ -28,7 +28,10 @@ function Info() {
             <div>
               <h2 className="info__title title">Conheça a ministrante</h2>
               <p className="info__description">Soraya Modesto é apaixonada por desenvolvimento humano.
-                É Diretora Executiva da Mapear Perfil, franqueada pela Sólides para distribuição de soluções em gestão de pessoas com uso da ferramenta Perfil Profiler. Bacharel em Direito e MBA em Gestão Estratégica de Negócios, Consultora Organizacional, Especialista em Gestão Comportamental, Coach pelo Instituto Internacional de Ciências Comportamentais e de Gestão (INCTA), Master Training em análise de Mapeamento Comportamental.</p>
+                Diretora Executiva da Mapear Perfil, franqueada pela Sólides para distribuição de soluções em gestão de pessoas com uso da ferramenta Perfil Profiler.
+                Desde 2013 atuando Master Training em análise comportamental,  mais de 900 devolutivas de perfil realizadas, 35 turmas de Analistas Comportamentais certificadas.
+                Bacharel em Direito e MBA em Gestão Estratégica de Negócios, Consultora Organizacional, Especialista em Gestão Comportamental, Coach pelo Instituto Internacional de Ciências Comportamentais e de Gestão (INCTA).
+                24 anos de experiência em Treinamento e  Desenvolvimento  de pessoas.</p>
             </div>
           </div>
 

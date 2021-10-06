@@ -29,12 +29,6 @@ function Footer() {
           </div>
 
           <div className="footer__contact">
-            <div className="footer__address">
-              <img className="footer__icon" src={locationIcon} alt="Localização Ícone" title="Localização"></img>
-              <p>Av. Afonso Pena, 4465 – Umuarama
-                Uberlândia – MG, CEP: 38405-309</p>
-            </div>
-
             <div className="footer__whatsapp-number">
               <img className="footer__icon" src={whatsappIcon} alt="Whatsapp Ícone" title="Whatsapp"></img>
               <p>(34) 98431-1111</p>

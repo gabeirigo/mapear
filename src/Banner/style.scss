@@ -2,8 +2,8 @@
 
 .banner {
   width: 100%;
-  height: calc(100vh - 200px);
-  background-image: url("../assets/img/banner.png");
+  height: calc(100vh - 100px);
+  background-image: url("../assets/img/banner2.png");
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -11,48 +11,61 @@
   justify-content: flex-end;
 
   &__description-content {
-    padding: 4rem;
-    border-radius: $radius;
-    background: rgba($white, 0.8);
-    backdrop-filter: blur(20px);
-    box-shadow: $box-shadow-4;
-    width: 50%;
+    width: 70%;
   }
-
-  &__text-description {
-    font-family: $font-body;
-    font-size: 1rem;
-    line-height: 1.4rem;
-    margin-bottom: 1.2rem;
-  }
+  
+ 
 
   &__container {
     display: flex;
-    flex-direction: row-reverse;
+    // flex-direction: row-reverse;
   }
 
   &__title {
     display: flex;
     flex-direction: column;
-    line-height: 3rem;
+    line-height: 4rem;
     font-family: $font-title;
-    font-size: 2rem;
-    color: $text-color-title;
+    font-size: 3rem;
+    color: white;
     margin-bottom: 1.2rem;
   }
 
   &__title-bold {
+    color: white;
     font-family: $font-title;
     font-weight: 700;
   }
 
+  &__text-description {
+    padding: 0.5rem 0;
+    width: 76%;
+    color: white;
+    font-family: $font-title;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-bottom: 1.2rem;
+  }
+
   .btn {
+    margin-bottom: 0.8rem;
     background-color: #f77737;
     border: none;
   }
 
   .btn:hover {
     background-color: #DB6A31;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .banner {
+    &__title{
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
   }
 }
 
@@ -114,3 +127,7 @@
   }
 
 }
+
+
+
+

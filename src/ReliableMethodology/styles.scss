@@ -36,7 +36,7 @@
   }
 
   &__supporting-companies {
-    width: 60%;
+    width: 70%;
     height: 8rem;
     display: flex;
     align-items: center;
@@ -45,6 +45,8 @@
     justify-content: space-evenly;
     box-shadow: $box-shadow-4;
   }
+
+  
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {

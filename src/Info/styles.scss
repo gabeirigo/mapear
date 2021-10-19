@@ -23,8 +23,22 @@
   }
 
   &__description {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    line-height: 2.4rem;
     
+  }
+
+  &__topics {
+    font-size: 1.25rem;
+    line-height: 2.2rem;
+  }
+
+  &__professional-career a {
+    color:  #ec9656!important;
+  }
+
+  &__topic {
+    line-height: 2.4rem;
   }
 
   &__description-highlight {

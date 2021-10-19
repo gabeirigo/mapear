@@ -29,10 +29,10 @@ function FrequentlyAskedQuestions() {
                                 <p>Turmas online e presencial.</p>
                             </AccordionTab>
                             <AccordionTab header="Qual o valor da Formação?">
-                                <p>Valor da Formação de R$ 1.297,00 por <mark>R$ 897,00</mark> (podendo parcelar no cartão)</p>
+                                <p>Entre em contato e receba ofertas da próxima turma.</p>
                             </AccordionTab>
                             <AccordionTab header="Quais os benefícios que ganho com a Formação?">
-                                <p>Plataforma Web personalizada + 3 perfis e atualização do novo relatório Profiler.</p>
+                                <p>Plataforma Web personalizada + 1 perfil e certificado internacional.</p>
                             </AccordionTab>
                             <AccordionTab header="Já tenho certificação, posso refazer?">
                                 <p>Sim, em 2021 a ferramenta foi atualizada, é importante saber interpretar o novo relatório e receber materiais atualizados para devolutivas dos perfis.</p>

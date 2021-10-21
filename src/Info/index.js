@@ -17,7 +17,7 @@ function Info() {
                 <li className="info-topic">Desenvolvimento de liderança de sucessão e performance. </li>
                 <li className="info-topic">Desenvolvimento individual e transição de carreira. </li>
                 <li className="info-topic">Coaching, treinamentos comportamentais.</li>
-              </ul> <a href="">Entre em contato para saber mais sobre o conteúdo e a próxima turma da formação. </a> </p>
+              </ul> <a href="https://api.whatsapp.com/send?phone=5534984311111">Entre em contato para saber mais sobre o conteúdo e a próxima turma da formação. </a> </p>
             </div>
             <div className="info__images-rhImage">
               <img className="info__image" src={rhImage} alt="Formação Analista Comportamental" title="Formação Analista Comportamental" />

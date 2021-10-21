@@ -19,7 +19,7 @@ function StudyMethod() {
                     </h2>
                 </div>
                 <div className="study-method__info-paragraph">
-                    <p className="study-method__info-paragraph-paragraph">Com a Formação Analista Comportamental, você garante uma ótima estrutura para iniciar seus atendimentos com qualidade e o melhor: sem sair de casa!</p>
+                    <p className="study-method__info-paragraph-paragraph">Com a Formação Analista Comportamental, você garante uma ótima estrutura para iniciar seus atendimentos com qualidade e o melhor: todo o processo 100% online</p>
                 </div>
 
                 <div className="study-method__content-cards">

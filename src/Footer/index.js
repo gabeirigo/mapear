@@ -3,7 +3,6 @@ import './styles.scss';
 import instagramIcon from '../assets/img/svg/instagram-icon.svg';
 import facebookIcon from '../assets/img/svg/facebook-icon.svg';
 import linkedinIcon from '../assets/img/svg/linkedin-icon.svg';
-import locationIcon from '../assets/img/svg/location-icon.svg';
 import whatsappIcon from '../assets/img/svg/whatsapp-icon.svg';
 import emailIcon from '../assets/img/svg/email-icon.svg';
 import mapearBrand from '../assets/img/svg/mapear-brand.svg';
@@ -29,12 +28,6 @@ function Footer() {
           </div>
 
           <div className="footer__contact">
-            <div className="footer__address">
-              <img className="footer__icon" src={locationIcon} alt="Localização Ícone" title="Localização"></img>
-              <p>Av. Afonso Pena, 4465 – Umuarama
-                Uberlândia – MG, CEP: 38405-309</p>
-            </div>
-
             <div className="footer__whatsapp-number">
               <img className="footer__icon" src={whatsappIcon} alt="Whatsapp Ícone" title="Whatsapp"></img>
               <p>(34) 98431-1111</p>

@@ -4,6 +4,7 @@ import ufmgImage from '../assets/img/svg/ufmg.svg';
 import finepImage from '../assets/img/svg/finep.svg';
 import uspImage from '../assets/img/svg/usp.svg';
 import fumsoftImage from '../assets/img/svg/fumsoft.svg';
+import mctiImage from '../assets/img/svg/MCTI.svg';
 
 function ReliableMethodology() {
     return (
@@ -33,6 +34,9 @@ function ReliableMethodology() {
                     </div>
                     <div className="reliable-methodology__companies">
                         <img src={fumsoftImage} alt="Fumsoft" title="Fumsoft"></img>
+                    </div>
+                    <div className="reliable-methodology__companies">
+                        <img src={mctiImage} alt="MCTI" title="Ministério da ciência, tecnologia e inovações"></img>
                     </div>
                 </div>
             </div>

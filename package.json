@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
     "emailjs-com": "^3.2.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "primeicons": "^4.1.0",
     "primereact": "^6.5.0",
     "react": "^17.0.2",
